@@ -20,11 +20,11 @@ public class AutoSendLog {
 		props.put("mail.smtp.auth", "true");
 		// 此处填写SMTP服务器
 		props.put("mail.smtp.host", "smtp.qq.com");
-		// 端口号，QQ邮箱给出了两个端口，但是另一个我一直使用不了，所以就给出这一个587
+		// 端口号
 		props.put("mail.smtp.port", "587");
-		// 此处填写你的账号
+		// 此处填写邮箱的账号
 		props.put("mail.user", "945715706@qq.com");
-		// 此处的密码就是前面说的16位STMP口令
+		// 此处的密码就是16位STMP口令
 		props.put("mail.password", "ymwikkaortxlbdhi");
 
 		// 构建授权信息，用于进行SMTP进行身份验证
